@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\miqvr\\Desktop\\ping-pong\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7514E1ED-64E3-4238-9333-98A528557B4C}|Pong\\PONG.csproj|c:\\users\\miqvr\\desktop\\ping-pong\\pong\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7514E1ED-64E3-4238-9333-98A528557B4C}|Pong\\PONG.csproj|solutionrelative:pong\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514E1ED-64E3-4238-9333-98A528557B4C}|Pong\\PONG.csproj|C:\\Users\\miqvr\\Desktop\\ping-pong\\pong\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7514E1ED-64E3-4238-9333-98A528557B4C}|Pong\\PONG.csproj|solutionrelative:pong\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514E1ED-64E3-4238-9333-98A528557B4C}|Pong\\PONG.csproj|C:\\Users\\miqvr\\Desktop\\ping-pong\\pong\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7514E1ED-64E3-4238-9333-98A528557B4C}|Pong\\PONG.csproj|solutionrelative:pong\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514E1ED-64E3-4238-9333-98A528557B4C}|Pong\\PONG.csproj|C:\\Users\\miqvr\\Desktop\\ping-pong\\pong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7514E1ED-64E3-4238-9333-98A528557B4C}|Pong\\PONG.csproj|solutionrelative:pong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514E1ED-64E3-4238-9333-98A528557B4C}|Pong\\PONG.csproj|C:\\Users\\miqvr\\Desktop\\ping-pong\\pong\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7514E1ED-64E3-4238-9333-98A528557B4C}|Pong\\PONG.csproj|solutionrelative:pong\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\miqvr\\AppData\\Local\\Temp\\.vsdbgsrc\\11753a9c98aec9ca8f0881e63fddfb0ac2eaa0dcb8101710e32f298fc0201de6\\ManifestBasedResourceGroveler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\miqvr\\Desktop\\ping-pong\\Pong\\Program.cs",
+              "RelativeDocumentMoniker": "Pong\\Program.cs",
+              "ToolTip": "C:\\Users\\miqvr\\Desktop\\ping-pong\\Pong\\Program.cs",
+              "RelativeToolTip": "Pong\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T20:40:58.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManifestBasedResourceGroveler.cs",
+              "DocumentMoniker": "C:\\Users\\miqvr\\AppData\\Local\\Temp\\.vsdbgsrc\\11753a9c98aec9ca8f0881e63fddfb0ac2eaa0dcb8101710e32f298fc0201de6\\ManifestBasedResourceGroveler.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\11753a9c98aec9ca8f0881e63fddfb0ac2eaa0dcb8101710e32f298fc0201de6\\ManifestBasedResourceGroveler.cs",
+              "ToolTip": "C:\\Users\\miqvr\\AppData\\Local\\Temp\\.vsdbgsrc\\11753a9c98aec9ca8f0881e63fddfb0ac2eaa0dcb8101710e32f298fc0201de6\\ManifestBasedResourceGroveler.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\11753a9c98aec9ca8f0881e63fddfb0ac2eaa0dcb8101710e32f298fc0201de6\\ManifestBasedResourceGroveler.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AQIAAG8BAAAAAAAAAADgv44BAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T20:31:31.326Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\miqvr\\Desktop\\ping-pong\\Pong\\Form1.cs",
+              "RelativeDocumentMoniker": "Pong\\Form1.cs",
+              "ToolTip": "C:\\Users\\miqvr\\Desktop\\ping-pong\\Pong\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Pong\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T20:30:47.854Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\miqvr\\Desktop\\ping-pong\\Pong\\Form2.cs",
+              "RelativeDocumentMoniker": "Pong\\Form2.cs",
+              "ToolTip": "C:\\Users\\miqvr\\Desktop\\ping-pong\\Pong\\Form2.cs",
+              "RelativeToolTip": "Pong\\Form2.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAuwAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T20:30:47.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\miqvr\\Desktop\\ping-pong\\Pong\\Form1.cs",
+              "RelativeDocumentMoniker": "Pong\\Form1.cs",
+              "ToolTip": "C:\\Users\\miqvr\\Desktop\\ping-pong\\Pong\\Form1.cs",
+              "RelativeToolTip": "Pong\\Form1.cs",
+              "ViewState": "AQIAAO0BAAAAAAAAAAAkwBMCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T20:30:47.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\miqvr\\Desktop\\ping-pong\\Pong\\Form2.cs",
+              "RelativeDocumentMoniker": "Pong\\Form2.cs",
+              "ToolTip": "C:\\Users\\miqvr\\Desktop\\ping-pong\\Pong\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Pong\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T20:30:47.87Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

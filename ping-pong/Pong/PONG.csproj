@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7514E1ED-64E3-4238-9333-98A528557B4C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MAD_MAN_Ping_Pong</RootNamespace>
+    <AssemblyName>Pong</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumbsmall_14523.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thu_14527.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auditorium_crowd_applause_500_people_.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_person_13_claps.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playhouse_theatre_laughter_and_applause_.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tennis_ball_bounce_on_racket_001.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tennis_ball_bounce_on_racket_002.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tennis_ball_tube_lid_put_on.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teren.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mouse %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-close-page-8269038.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yoga-ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rackets %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rackets %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rackets %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yoga-ball1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yoga-ball %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yoga-ball %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yoga-ball %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ping-pong %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tennis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tennis %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table-tennis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table-tennis %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table-tennis %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-background %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-background %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-background %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-background %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-circle-3962612.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-tap-655469.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-round-play-button-107094.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-round-play-button-107094 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
