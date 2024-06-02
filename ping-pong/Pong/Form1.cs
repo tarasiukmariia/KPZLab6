@@ -13,10 +13,13 @@ namespace MAD_MAN_Ping_Pong
 {
     
     public partial class Form1 : Form
+
     {
+        private ICommand moveCommand;
         public Form1()
         {
             InitializeComponent();
+            moveCommand = new MovePlayerCommand(P1);
         }
 
         //визначення класу ігрового процесу пінг-понг
@@ -67,8 +70,21 @@ namespace MAD_MAN_Ping_Pong
         /*********** клас визначення логіки ігрового процесу *************************/
         class game_logic // включає методи, які відповідають за обробку логіки гри та подій. У цьому класі реалізовані методи для обробки зіткнень м'яча з платформами, руху м'яча, розрахунку рахунків та управління станом гри.
         {
-            ident_support variables = new ident_support();
-            Form1 childForm = new Form1();
+            private static game_logic instance;
+            private ident_support variables = new ident_support();
+            private Form1 childForm = new Form1();
+
+          
+            private game_logic() { }
+
+            public static game_logic GetInstance()
+            {
+                if (instance == null)
+                {
+                    instance = new game_logic();
+                }
+                return instance;
+            }
 
             public void Collision(PictureBox Paddle)
             {
@@ -190,24 +206,11 @@ namespace MAD_MAN_Ping_Pong
 
 
         //P1 move
-        private void Form1_MouseMove(object sender, MouseEventArgs e) //який відповідає за визначення руху платформи гравця відповідно до руху миші.
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
         {
             if (mouse == 1)
             {
-                if (Cursor.Position.Y > 60 && Cursor.Position.Y < this.Size.Height - panel3.Size.Height - 50)
-                {
-                    P1.Location = new Point(P1.Location.X, Cursor.Position.Y - 45);
-                }
-            }
-            else
-            {
-                if (mouse == 2)
-                {
-                    if (Cursor.Position.Y > 60 && Cursor.Position.Y < this.Size.Height - panel3.Size.Height - 50)
-                    {
-                        P2.Location = new Point(P2.Location.X, Cursor.Position.Y - 45);
-                    }
-                }
+                moveCommand.Execute(Cursor.Position.Y);
             }
         }
 
@@ -215,10 +218,7 @@ namespace MAD_MAN_Ping_Pong
         {
             if (mouse == 1)
             {
-                if (Cursor.Position.Y > 60 && Cursor.Position.Y < this.Size.Height - panel3.Size.Height - 50)
-                {
-                    P1.Location = new Point(P1.Location.X, Cursor.Position.Y - 45);
-                }
+                moveCommand.Execute(Cursor.Position.Y);
             }
         }
 
@@ -226,11 +226,14 @@ namespace MAD_MAN_Ping_Pong
         {
             if (mouse == 1)
             {
-                if (Cursor.Position.Y > 60 && Cursor.Position.Y < this.Size.Height - panel3.Size.Height - 50)
-                {
-                    P1.Location = new Point(P1.Location.X, Cursor.Position.Y - 45);
-                }
+                moveCommand.Execute(Cursor.Position.Y);
             }
+        }
+
+        // Additional methods to switch between player platforms (P1 and P2)
+        public void SetMoveCommand(Control platform)
+        {
+            moveCommand = new MovePlayerCommand(platform);
         }
 
         //P1 move end
